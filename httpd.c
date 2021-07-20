@@ -15,11 +15,10 @@
 #define ISspace(x) isspace((int)(x))  //检查是否为空格
 
 
-
 #define SERVER_STRING "Server: pakchoi's http/0.1.0\r\n"//定义个人server名称
 
 
-void *accept_request(void* client);
+void *accept_request(void* client);//处理从套接字上监听到的一个HTTP请求
 void bad_request(int);
 void cat(int, FILE *);
 void cannot_execute(int);
