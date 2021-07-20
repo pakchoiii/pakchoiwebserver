@@ -12,7 +12,7 @@
 #include <sys/wait.h>
 #include <stdlib.h>
 
-#define ISspace(x) isspace((int)(x))
+#define ISspace(x) isspace((int)(x))  //检查是否为空格
 
 
 
